@@ -119,7 +119,7 @@ def run_clusturing(data,method,parameter_name,parameter_values,cases_plot=[]):
 
 plt.close("all")
 
-data = Nyc_job_read('./Data/jobs.csv')
+data = Nyc_job_read('jobs.csv')
 print("\n> Le nombre de lignes du dataset est: " , len(data.df), "lignes")
 print("\n> Affichage de 5 premières lignes du dataset:")
 print("\n", data.df.head(5))
